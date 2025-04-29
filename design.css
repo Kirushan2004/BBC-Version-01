@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.page-container{
+    height: 100vh;
+    flex-direction: column;
+}
+.Top-Bar_Container{
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    height: 67px;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    padding: 2px;
+    width: 200px;
+}
+.searchbox{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    padding: 2px;
+}
+.searchbox:hover{
+    background-color: #E6E6E6;
+}
+.bbc-txt {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.bbc-txt>.text-01 {
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    height: 38px;
+    gap: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.registerbtn{
+    display: flex;
+    align-items: center;
+    padding: 15px 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.signin-btn{
+    display: flex;
+    align-items: center;
+    padding: 15px 12px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.registerbtn:hover{
+    background-color: #4c4c4c;
+}
+.signin-btn:hover{
+    background-color: #4c4c4c;
+    color: white;
+}
+.navi-container{
+    border-bottom: 1px solid #E6E6E6;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 7px;
+    border-bottom: 3.9px solid black;
+    font-weight: bold;
+}
+.News,.Sport,.Businees,.Innovation,.Culture,.Arts,.Travel,.Earth,.Video,.Live{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 7px;
+}
+.Audio{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 7px;
+    border-left: 2.5px solid #E6E6E6;
+}
+.Home:hover{
+    background-color: #E6E6E6;
+    border-bottom: 3.9px solid #E6E6E6;
+}
+.News:hover{
+    background-color: #E6E6E6;
+}
+.Sport:hover{
+    background-color: #E6E6E6;
+}
+.Businees:hover{
+    background-color: #E6E6E6;
+}
+.Innovation:hover{
+    background-color: #E6E6E6;
+}
+.Culture:hover{
+    background-color: #E6E6E6;
+}
+.Arts:hover{
+    background-color: #E6E6E6;
+}
+.Travel:hover{
+    background-color: #E6E6E6;
+}
+.Earth:hover{
+    background-color: #E6E6E6;
+}
+.Audio:hover{
+    background-color: #E6E6E6;
+}
+.Video:hover{
+    background-color: #E6E6E6;
+}
+.Live:hover{
+    background-color: #E6E6E6;
+}
+.page-container-1{
+    border: 1px solid black;
+    display: flex;
+    height: 790px;
+    padding-left: 109px;
+    padding-right: 109px;
+}
+.content-1st-container{
+    border: 1px solid black;
+    display: flex;
+    height: 790px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-content-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 705px;
+    width: 301px;
+}
+.right-content-container{
+    border: 1px solid black;
+    height: 705px;
+    width: 307px;
+}
+.left-1st-content-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 364px;
+}
+.img{
+    border: 1px solid red;
+    height: 200px; 
+    object-fit:contain;
+    display: flex;
+}
