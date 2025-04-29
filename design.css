@@ -179,14 +179,75 @@
     width: 307px;
 }
 .left-1st-content-container{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    height: 364px;
+    border-bottom: 1px solid #E6E6E6;
+    height: 350px;
 }
 .img{
-    border: 1px solid red;
     height: 200px; 
     object-fit:contain;
+    object-fit:contain;
+    width: 300px;
+}
+.text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.text-2{
+    font-size: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.text-time{
+    padding: 5px 4px 0px 3px;
     display: flex;
+    gap: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #6e6e6e;
+    cursor: pointer;
+}
+.text-time-2{
+    border: 1px solid #6e6e6e;
+}
+.left-2nd-content-container{
+    height: 350px;
+}
+.img2-2{
+    margin-top: 1px;
+    height: 198px; 
+    object-fit:contain;
+    width: 300px;
+}
+.text-donald{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.text-donald:hover{
+    text-decoration: underline;
+}
+.text_don_text{
+    font-size: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.time-of-dono{
+    padding: 5px 4px 0px 3px;
+    display: flex;
+    gap: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #6e6e6e;
+    cursor: pointer;
+}
+.text-don-time-2{
+    border: 1px solid #6e6e6e;
 }
